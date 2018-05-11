@@ -1,0 +1,51 @@
+.nav-container {
+  .page-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  @extend %headings;
+    .nav-link {
+      text-decoration: none;
+      color: black;
+    }
+    .portfolio {
+      border-left: 1px solid rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+
+.social-media-nav {
+  color: white;
+  background-color: rgba(99, 99, 99, 0.2);
+  border-radius: 6px;
+  position: fixed;
+  left: 1%;
+  top: 28%;
+  display: grid;
+  z-index: 1;
+  grid-template-columns: 1fr;
+  animation-delay: 1s;
+  animation-duration: 15s;
+  .social-media-icon {
+    width: 33px;
+    padding: 6px;
+  }
+  .social-media-link {
+    color: white;
+  }
+  .twitter-icon:hover {
+    background-color: #1DA1F2;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  .github-icon:hover {
+    background-color: #000;
+  }
+  .linkedin-icon:hover {
+    background-color: #0077B5;
+  }
+  .stackoverflow-icon:hover {
+    background-color: #f48024;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+}

@@ -1,0 +1,29 @@
+.skills-container {
+  height: 50%;
+  flex: 1.5;
+  margin-top: 12vh;
+  margin-left: 2vw;
+  background-color: rgba(100, 100, 100, 0.2);
+  border-radius: 6px;
+  color: white;
+  h2 {
+    text-align: center;
+  }
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3fr 2fr;
+    margin-top: 50px;
+    text-align: center;
+    .skill {
+      padding-bottom: 1.0rem;
+      .skill-link {
+      color: white;
+      text-decoration: none;
+        .skill-text {
+        margin: 0;
+        }
+      }
+    }
+  }
+}

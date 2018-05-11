@@ -1,0 +1,34 @@
+.bio-section {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  .bio-text-container {
+    background-color: rgba(100, 100, 100, 0.2);
+    flex: 1;
+    border-radius: 6px;
+    margin-top: 12vh;
+    margin-bottom: 10vh;
+    .bio-heading {
+      color: white;
+      margin: 1.0rem;
+    }
+    .bio-grid {
+      img {
+        float: left;
+        border-radius: 2px;
+        margin: 1.0rem;
+        margin-top: 0.1rem;
+      }
+      .bio-text {
+        color: white;
+        margin: 1.0rem;
+      }
+    }
+  }
+}
+
+.bio-section:focus {
+  outline: none;
+}

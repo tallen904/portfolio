@@ -1,0 +1,139 @@
+* {
+  font-family: 'Roboto', sans-serif; }
+
+body {
+  height: 100vh;
+  margin: 0; }
+
+.content-sections {
+  background-image: url("../images/hex-dark.png"); }
+
+.page-heading .name, .page-heading .role, .nav-container .page-nav {
+  color: black;
+  text-align: center;
+  margin-left: 32vw;
+  margin-right: 44vw; }
+
+.page-heading {
+  height: 100vh;
+  background-image: url("../images/mac.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .page-heading .name {
+    padding-top: 28vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding-bottom: 0.5rem;
+    letter-spacing: 0.35rem; }
+  .page-heading .role {
+    margin-top: 0;
+    letter-spacing: 0.3rem;
+    padding-top: 0.5rem; }
+  .page-heading .scroll-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50vh; }
+    .page-heading .scroll-arrow a {
+      color: rgba(250, 250, 250, 0.5); }
+
+.nav-container .page-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+  .nav-container .page-nav .nav-link {
+    text-decoration: none;
+    color: black; }
+  .nav-container .page-nav .portfolio {
+    border-left: 1px solid rgba(0, 0, 0, 0.5); }
+
+.social-media-nav {
+  color: white;
+  background-color: rgba(99, 99, 99, 0.2);
+  border-radius: 6px;
+  position: fixed;
+  left: 1%;
+  top: 28%;
+  display: grid;
+  z-index: 1;
+  grid-template-columns: 1fr;
+  animation-delay: 1s;
+  animation-duration: 15s; }
+  .social-media-nav .social-media-icon {
+    width: 33px;
+    padding: 6px; }
+  .social-media-nav .social-media-link {
+    color: white; }
+  .social-media-nav .twitter-icon:hover {
+    background-color: #1DA1F2;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px; }
+  .social-media-nav .github-icon:hover {
+    background-color: #000; }
+  .social-media-nav .linkedin-icon:hover {
+    background-color: #0077B5; }
+  .social-media-nav .stackoverflow-icon:hover {
+    background-color: #f48024;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px; }
+
+.bio-section {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  margin-left: 5vw;
+  margin-right: 5vw; }
+  .bio-section .bio-text-container {
+    background-color: rgba(100, 100, 100, 0.2);
+    flex: 1;
+    border-radius: 6px;
+    margin-top: 12vh;
+    margin-bottom: 10vh; }
+    .bio-section .bio-text-container .bio-heading {
+      color: white;
+      margin: 1.0rem; }
+    .bio-section .bio-text-container .bio-grid img {
+      float: left;
+      border-radius: 2px;
+      margin: 1.0rem;
+      margin-top: 0.1rem; }
+    .bio-section .bio-text-container .bio-grid .bio-text {
+      color: white;
+      margin: 1.0rem; }
+
+.bio-section:focus {
+  outline: none; }
+
+.skills-container {
+  height: 50%;
+  flex: 1.5;
+  margin-top: 12vh;
+  margin-left: 2vw;
+  background-color: rgba(100, 100, 100, 0.2);
+  border-radius: 6px;
+  color: white; }
+  .skills-container h2 {
+    text-align: center; }
+  .skills-container .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3fr 2fr;
+    margin-top: 50px;
+    text-align: center; }
+    .skills-container .skills-grid .skill {
+      padding-bottom: 1.0rem; }
+      .skills-container .skills-grid .skill .skill-link {
+        color: white;
+        text-decoration: none; }
+        .skills-container .skills-grid .skill .skill-link .skill-text {
+          margin: 0; }
+
+.portfolio-section {
+  height: 100vh;
+  color: white;
+  margin-left: 5vw;
+  margin-right: 5vw; }
+
+.portfolio-section:focus {
+  outline: none; }

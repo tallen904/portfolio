@@ -5,18 +5,22 @@
   margin-left: 2vw;
   background-color: rgba(100, 100, 100, 0.2);
   border-radius: 6px;
-  color: white;
-  h2 {
-    text-align: center;
-  }
+    h2 {
+      text-align: center;
+      color: white;
+    }
   .skills-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 3fr 2fr;
+    // grid-template-rows: 3fr 2fr;
+    grid-gap: 3.0rem 0;
     margin-top: 50px;
     text-align: center;
     .skill {
-      padding-bottom: 1.0rem;
+      padding: 10px;
+      border-radius: 6px;
+      width: 50%;
+      justify-self: center;
       .skill-link {
       color: white;
       text-decoration: none;
@@ -26,4 +30,46 @@
       }
     }
   }
+}
+
+.skill-html:hover {
+  background-color: #E34C26;
+}
+
+.skill-css:hover {
+  background-color: #002561;
+}
+
+.skill-js:hover {
+  background-color: #f7df1e;
+}
+
+.skill-react:hover {
+  background-color: #00d8ff;
+}
+
+.skill-node:hover {
+  background-color: #6cc24a;
+  padding: 10px;
+}
+
+.skill-mongo:hover {
+  background-color: #589636;
+  padding: 10px;
+}
+
+.skill-mysql:hover {
+  background-color: #00758f;
+}
+
+.skill-gulp:hover {
+  background-color: #cf4646;
+}
+
+.skill-sass:hover {
+  background-color: palevioletred;
+}
+
+.skill-git:hover {
+  background-color: #333;
 }

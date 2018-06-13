@@ -1,36 +1,36 @@
 %headings {
   color: black;
   text-align: center;
-  margin-left: 32vw;
-  margin-right: 44vw;
 }
 
 .page-heading {
+  position: relative;
   height: 100vh;
-  background-image: url('../images/mac.jpg');
+  background-image: url("../images/mac.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  .name {
-    @extend %headings;
-    padding-top: 28vh;
-    margin-top: 0;
-    margin-bottom: 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    padding-bottom: 0.5rem;
-    letter-spacing: 0.35rem;
-  }
-  .role {
-    @extend %headings;
-    margin-top: 0;
-    letter-spacing: 0.3rem;
-    padding-top: 0.5rem;
+  .name-row-container {
+    padding-top: 16vh;
+    .name {
+      @extend %headings;
+      margin: 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+      padding-bottom: 0.5rem;
+      letter-spacing: 0.35rem;
+    }
+    .role {
+      @extend %headings;
+      letter-spacing: 0.3rem;
+      margin-top: 0;
+      padding-top: 0.5rem;
+    }
   }
   .scroll-arrow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50vh;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
     a {
       color: rgba(250, 250, 250, 0.5);
     }

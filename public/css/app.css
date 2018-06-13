@@ -12,34 +12,33 @@ body {
 .content-sections {
   height: 100%; }
 
-.page-heading .name, .page-heading .role, .nav-container .page-nav {
+.page-heading .name-row-container .name, .page-heading .name-row-container .role, .nav-container .page-nav {
   color: black;
-  text-align: center;
-  margin-left: 32vw;
-  margin-right: 44vw; }
+  text-align: center; }
 
 .page-heading {
+  position: relative;
   height: 100vh;
   background-image: url("../images/mac.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
-  .page-heading .name {
-    padding-top: 28vh;
-    margin-top: 0;
-    margin-bottom: 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    padding-bottom: 0.5rem;
-    letter-spacing: 0.35rem; }
-  .page-heading .role {
-    margin-top: 0;
-    letter-spacing: 0.3rem;
-    padding-top: 0.5rem; }
+  .page-heading .name-row-container {
+    padding-top: 16vh; }
+    .page-heading .name-row-container .name {
+      margin: 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+      padding-bottom: 0.5rem;
+      letter-spacing: 0.35rem; }
+    .page-heading .name-row-container .role {
+      letter-spacing: 0.3rem;
+      margin-top: 0;
+      padding-top: 0.5rem; }
   .page-heading .scroll-arrow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50vh; }
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center; }
     .page-heading .scroll-arrow a {
       color: rgba(250, 250, 250, 0.5); }
 

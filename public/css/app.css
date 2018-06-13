@@ -20,7 +20,7 @@ body {
 
 .page-heading {
   height: 100vh;
-  background-image: url("../images/mac.webp");
+  background-image: url("../images/mac.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -174,7 +174,7 @@ body {
         background-color: grey;
         border-radius: 6px; }
         .portfolio-section .portfolio-container .card-column .portfolio-card .portfolio-card-image {
-          background-image: url("../images/iphone.webp");
+          background-image: url("../images/iphone.jpg");
           background-size: cover;
           border-top-left-radius: 6px;
           border-top-right-radius: 6px;

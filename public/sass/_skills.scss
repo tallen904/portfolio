@@ -1,6 +1,6 @@
 .skills-container {
-  margin: 0 15px 20px 15px;
-  max-height: 400px;
+  margin: 0 0 20px 0;
+  max-height: fit-content;
   background-color: rgba(100, 100, 100, 0.2);
   border-radius: 6px;
     h2 {
@@ -70,3 +70,9 @@
 .skill-git:hover {
   background-color: #333;
 }
+
+// @media (max-width: 640px) {
+//   .skills-container {
+//     margin-left: 55px;
+//   }
+// }

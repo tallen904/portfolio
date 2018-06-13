@@ -87,7 +87,7 @@ body {
   .bio-section .bio-text-container {
     background-color: rgba(100, 100, 100, 0.2);
     border-radius: 6px;
-    margin: 0px 15px 20px 15px; }
+    margin-bottom: 20px; }
     .bio-section .bio-text-container .bio-heading {
       color: white;
       margin: 1.0rem; }
@@ -104,8 +104,8 @@ body {
   outline: none; }
 
 .skills-container {
-  margin: 0 15px 20px 15px;
-  max-height: 400px;
+  margin: 0 0 20px 0;
+  max-height: fit-content;
   background-color: rgba(100, 100, 100, 0.2);
   border-radius: 6px; }
   .skills-container h2 {
@@ -160,8 +160,7 @@ body {
   background-color: #333; }
 
 .portfolio-section {
-  color: white;
-  margin-top: 20px; }
+  color: white; }
   .portfolio-section .portfolio-container {
     background-color: rgba(100, 100, 100, 0.2);
     border-radius: 6px; }

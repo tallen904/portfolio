@@ -1,6 +1,5 @@
 .portfolio-section {
   color: white;
-  margin-top: 20px;
   .portfolio-container {
     background-color: rgba(100, 100, 100, 0.2);
     border-radius: 6px;
@@ -37,3 +36,9 @@
 .portfolio-section:focus {
   outline: none;
 }
+
+// @media (max-width: 640px) {
+//   .portfolio-section {
+//     margin-left: 40px;
+//   }
+// }

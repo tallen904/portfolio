@@ -3,7 +3,7 @@
   .bio-text-container {
     background-color: rgba(100, 100, 100, 0.2);
     border-radius: 6px;
-    margin: 0px 15px 20px 15px;
+    margin-bottom: 20px;
     .bio-heading {
       color: white;
       margin: 1.0rem;
@@ -26,3 +26,9 @@
 .bio-section:focus {
   outline: none;
 }
+
+// @media (max-width: 640px) {
+//   .bio-container {
+//     margin-left: 55px;
+//   }
+// }

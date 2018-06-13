@@ -1,0 +1,14 @@
+.footer-main {
+  background-color: rgba(100, 100, 100, 0.2);
+  color: white;
+  margin-top: 20px;
+  height: 15vh;
+  position: relative;
+  .copyright {
+    margin-bottom: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
